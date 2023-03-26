@@ -1313,7 +1313,6 @@ function RayfieldLibrary:CreateWindow(Settings)
 				Button.Title.Text = NewButton
 				Button.Name = NewButton
 			end
-	
 
 			return ButtonValue
 		end
