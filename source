@@ -1313,17 +1313,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 				Button.Title.Text = NewButton
 				Button.Name = NewButton
 			end
-			
-			function ButtonValue:DestroyMe()
-				
-				TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
-				TweenService:Create(Button.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Transparency = 1):Play()
-				TweenService:Create(Button.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
-
-				wait(0.7)
-				Button:Destroy()
-				
-			end
+	
 
 			return ButtonValue
 		end
