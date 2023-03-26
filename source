@@ -1321,6 +1321,9 @@ function RayfieldLibrary:CreateWindow(Settings)
 				wait(0.7)
 				Button:Destroy()
 			end
+			
+			ButtonValue.UI = Button
+			
 			return ButtonValue
 		end
 		
